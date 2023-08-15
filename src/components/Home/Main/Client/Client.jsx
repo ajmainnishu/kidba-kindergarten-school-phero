@@ -4,7 +4,7 @@ import quote from '../../../../assets/home/main/client/quote.png'
 
 const Client = () => {
     return (
-        <div className='flex md:flex-row flex-col lg:px-32 px-10 items-center client py-32 text-white'>
+        <div className='flex md:flex-row flex-col lg:px-32 px-10 items-center client py-28 text-white'>
             <img className='md:me-20' src={testimonial} alt="testimonial" />
             <div className='mt-10 md:mt-0'>
                 <img src={quote} alt="quote" />
