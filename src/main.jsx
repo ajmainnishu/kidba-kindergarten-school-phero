@@ -4,6 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './components/Home/Home.jsx'
+import Courses from './components/Courses/Courses.jsx'
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
         path: '/',
         element: <Home />,
         loader: () => fetch('fakeData/schoolsInfo.json')
+      },
+      {
+        path: '/courses',
+        element:  <Courses></Courses>
       }
     ]
   }
